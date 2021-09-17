@@ -18,7 +18,7 @@ namespace LineComputation
             {
                 Console.WriteLine("line1: "+length1 + "is greater than line2:" + length2);
             }
-            if (length1.CompareTo(length2) == 0)
+            if (length1.CompareTo(length2) < 0)
             {
                 Console.WriteLine("line1: "+length1 + "is less than line2:" + length2);
             }
